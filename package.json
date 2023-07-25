@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muno17/restaurant-page.git"
+  },
+  "author": "Danny Munoz <munozd17@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muno17/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/muno17/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
