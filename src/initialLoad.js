@@ -1,4 +1,4 @@
-function loader () {
+function loader() {
     const page = document.getElementById('content');
     
     // create flex items
