@@ -1,5 +1,5 @@
 import { loader } from './initialLoad.js';
-import { loadHome } from './loadHome.js';
+import { loadHome } from './home.js';
 import { loadMenu } from './menu.js';
 import { loadContact } from './contact.js';
 
