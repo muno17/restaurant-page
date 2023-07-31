@@ -26,6 +26,7 @@ function loader() {
     header.style.height = '10%';
     header.style.width = '100%';
 
+    main.setAttribute('id', 'mainArea');
     main.innerHTML = 'main';
     main.style.backgroundColor = "#8E90A4";
     main.style.height = '100%';
