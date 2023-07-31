@@ -13,7 +13,7 @@ function loader() {
 
     page.style.display = 'flex';
     page.style.flexDirection = 'column';
-    page.style.justifyContent = 'spaceEvenly';
+    page.style.justifyContent = 'space-evenly';
     page.style.alignItems = 'center';
     page.style.height = "100vh";
     page.style.padding = "0rem";
@@ -25,6 +25,24 @@ function loader() {
     header.style.backgroundColor = "#BC81BF";
     header.style.height = '5%';
     header.style.width = '100%';
+    header.style.paddingTop = '1rem';
+    //add three navigation divs
+    header.style.display = 'flex';
+    header.style.justifyContent = 'space-evenly';
+    const homeTab = document.createElement('div');
+    header.appendChild(homeTab);
+    homeTab.innerHTML = "Home";
+    homeTab.setAttribute('id','homeTab');
+    const menuTab = document.createElement('div');
+    header.appendChild(menuTab);
+    menuTab.innerHTML = 'Menu';
+    menuTab.setAttribute('id', 'menuTab');
+    const contactTab = document.createElement('div');
+    header.appendChild(contactTab);
+    contactTab.innerHTML = 'Contact';
+    contactTab.setAttribute('id', 'contactTab');
+
+
 
     main.setAttribute('id', 'mainArea');
     main.style.backgroundColor = "#8E90A4";
