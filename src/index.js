@@ -5,3 +5,7 @@ import { loadContact } from './contact.js';
 
 loader();
 loadHome();
+
+const home = document.getElementById('homeTab');
+const menu = document.getElementById('menuTab');
+const contact = document.getElementById('contactTab');
