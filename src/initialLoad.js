@@ -18,21 +18,20 @@ function loader() {
     page.style.height = "100vh";
     page.style.padding = "0rem";
     page.style.margin = "0";
+    page.style.fontFamily = 'ubuntu';
+    page.style.color = 'white';
 
 
-
-    header.innerHTML = 'header';
     header.style.backgroundColor = "#BC81BF";
-    header.style.height = '10%';
+    header.style.height = '5%';
     header.style.width = '100%';
 
     main.setAttribute('id', 'mainArea');
-    main.innerHTML = 'main';
     main.style.backgroundColor = "#8E90A4";
     main.style.height = '100%';
     main.style.width = '100%';
 
-    footer.innerHTML = 'footer';
+
     footer.style.backgroundColor = "#BC81BF";
     footer.style.height = '2%';
     footer.style.width = '100%';

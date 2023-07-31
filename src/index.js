@@ -5,4 +5,3 @@ import { loadContact } from './contact.js';
 
 loader();
 loadHome();
-console.log("doin it 2");
