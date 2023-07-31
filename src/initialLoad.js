@@ -26,6 +26,8 @@ function loader() {
     header.style.height = '5%';
     header.style.width = '100%';
     header.style.paddingTop = '1rem';
+    header.style.paddingBottom = '.5rem';
+    header.style.fontSize = '2rem';
     //add three navigation divs
     header.style.display = 'flex';
     header.style.justifyContent = 'space-evenly';
@@ -73,6 +75,12 @@ function loader() {
     footer.style.backgroundColor = "#BC81BF";
     footer.style.height = '2%';
     footer.style.width = '100%';
+    footer.style.textAlign = 'center';
+    footer.style.fontSize = '1.5rem';
+    footer.style.padding = '1rem';
+    footer.style.marginBottom = '0';
+    footer.style.boxShadow = '3px 3px 10px black';
+    footer.innerHTML = '© 2023 Danny Muñoz';
 
     // add flex items to page
     page.appendChild(header);
