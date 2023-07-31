@@ -27,7 +27,7 @@ function loader() {
     header.style.width = '100%';
     header.style.paddingTop = '1rem';
     header.style.paddingBottom = '.5rem';
-    header.style.fontSize = '2rem';
+    header.style.fontSize = '1.7rem';
     //add three navigation divs
     header.style.display = 'flex';
     header.style.justifyContent = 'space-evenly';
@@ -76,7 +76,7 @@ function loader() {
     footer.style.height = '2%';
     footer.style.width = '100%';
     footer.style.textAlign = 'center';
-    footer.style.fontSize = '1.5rem';
+    footer.style.fontSize = '1.2rem';
     footer.style.padding = '1rem';
     footer.style.marginBottom = '0';
     footer.style.boxShadow = '3px 3px 10px black';
