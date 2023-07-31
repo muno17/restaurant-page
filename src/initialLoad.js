@@ -49,6 +49,26 @@ function loader() {
     main.style.height = '100%';
     main.style.width = '100%';
 
+    // add innner box to main area
+    const mainBox = document.createElement("div");
+    mainBox.setAttribute("id", "mainBox");
+    mainBox.style.display = "flex";
+    mainBox.style.flexDirection = "column";
+    mainBox.style.justifyContent = "space-between";
+    mainBox.style.alignItems = "center";
+    mainBox.style.height = "60vh";
+    mainBox.style.padding = "3rem";
+    mainBox.style.margin = "4rem";
+    mainBox.style.marginLeft = "15rem";
+    mainBox.style.marginRight = "15rem";
+    mainBox.style.backgroundColor = "#DBDBDB";
+    mainBox.style.boxShadow = "3px 3px 8px black";
+    mainBox.style.textShadow = "3px 3px 10px black";
+    mainBox.style.border = ".5rem solid white";
+    mainBox.style.borderRadius = ".5rem";
+
+    main.appendChild(mainBox);
+
 
     footer.style.backgroundColor = "#BC81BF";
     footer.style.height = '2%';

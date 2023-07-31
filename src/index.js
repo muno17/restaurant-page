@@ -7,25 +7,25 @@ import { loadContact } from './contact.js';
 loader();
 loadHome();
 
-const main = document.getElementById("mainArea");
+const mainBox = document.getElementById("mainBox");
 
 // event listeners change the tab that's being displayed
 const home = document.getElementById('homeTab');
 home.addEventListener('click', () => {
-    main.innerHTML = ''
+    mainBox.innerHTML = ''
     loadHome();
 })
 
 
 const menu = document.getElementById('menuTab');
 menu.addEventListener('click', () => {
-    main.innerHTML = "";
+    mainBox.innerHTML = "";
     loadMenu();
 })
 
 
 const contact = document.getElementById('contactTab');
 contact.addEventListener('click', () => {
-    main.innerHTML = "";
+    mainBox.innerHTML = "";
     loadContact();
 })
