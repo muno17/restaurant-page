@@ -13,7 +13,11 @@ function loadHome() {
 
     const info = document.createElement('div');
     info.innerHTML = `We make wings and pasta and empanadas and curries and 
-                    dumplings and all of the other good stuff`;
+                    dumplings and all of the other good stuff
+                    <br> If you eat it, we got it
+                    <br> If we don't got it, maybe try something better
+                    <br> If you don't like it, then don't come LOL
+                    <br>- Rafa`;
     info.style.border = ".3rem solid white";
     info.style.padding = "1rem";
     info.style.borderRadius = ".4rem";

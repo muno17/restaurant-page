@@ -35,19 +35,29 @@ function loader() {
     header.appendChild(homeTab);
     homeTab.innerHTML = "Home";
     homeTab.setAttribute('id','homeTab');
+    homeTab.style.border = ".3rem solid white";
+    homeTab.style.borderRadius = ".4rem";
+    homeTab.style.paddingRight = '1rem';
+    homeTab.style.paddingLeft = '1rem';
+    homeTab.style.backgroundColor = "#8185bf";
+    homeTab.setAttribute('class', 'selected');
     const menuTab = document.createElement('div');
     header.appendChild(menuTab);
     menuTab.innerHTML = 'Menu';
     menuTab.setAttribute('id', 'menuTab');
+    menuTab.style.paddingRight = "1rem";
+    menuTab.style.paddingLeft = "1rem";
     const contactTab = document.createElement('div');
     header.appendChild(contactTab);
     contactTab.innerHTML = 'Contact';
     contactTab.setAttribute('id', 'contactTab');
+    contactTab.style.paddingRight = "1rem";
+    contactTab.style.paddingLeft = "1rem";
 
 
 
     main.setAttribute('id', 'mainArea');
-    main.style.backgroundColor = "#8E90A4";
+    main.style.backgroundColor = "#DBDBDB";
     main.style.height = '100%';
     main.style.width = '100%';
 
@@ -63,7 +73,7 @@ function loader() {
     mainBox.style.margin = "4rem";
     mainBox.style.marginLeft = "15rem";
     mainBox.style.marginRight = "15rem";
-    mainBox.style.backgroundColor = "#81a3bf";
+    mainBox.style.backgroundColor = "#8E90A4";
     mainBox.style.boxShadow = "3px 3px 8px black";
     mainBox.style.textShadow = "3px 3px 10px black";
     mainBox.style.border = ".5rem solid white";
