@@ -6,6 +6,12 @@ function loadContact() {
     contactTitle.innerHTML = 'Contact Us';
     contactTitle.style.fontSize = '3rem';
     contactTitle.style.textAlign = 'center';
+    contactTitle.style.border = ".3rem solid white";
+    contactTitle.style.padding = "1rem";
+    contactTitle.style.paddingRight = "3rem";
+    contactTitle.style.paddingLeft = "3rem";
+    contactTitle.style.borderRadius = ".4rem";
+    contactTitle.style.backgroundColor = "#8185bf";
 
     mainBox.appendChild(contactTitle);
 }

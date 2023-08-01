@@ -22,7 +22,7 @@ function loader() {
     page.style.color = 'white';
 
 
-    header.style.backgroundColor = "#BC81BF";
+    header.style.backgroundColor = "#81a3bf";
     header.style.height = '5%';
     header.style.width = '100%';
     header.style.paddingTop = '1rem';
@@ -63,7 +63,7 @@ function loader() {
     mainBox.style.margin = "4rem";
     mainBox.style.marginLeft = "15rem";
     mainBox.style.marginRight = "15rem";
-    mainBox.style.backgroundColor = "#DBDBDB";
+    mainBox.style.backgroundColor = "#81a3bf";
     mainBox.style.boxShadow = "3px 3px 8px black";
     mainBox.style.textShadow = "3px 3px 10px black";
     mainBox.style.border = ".5rem solid white";
@@ -72,7 +72,7 @@ function loader() {
     main.appendChild(mainBox);
 
 
-    footer.style.backgroundColor = "#BC81BF";
+    footer.style.backgroundColor = "#81a3bf";
     footer.style.height = '2%';
     footer.style.width = '100%';
     footer.style.textAlign = 'center';
