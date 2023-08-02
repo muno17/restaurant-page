@@ -2,6 +2,8 @@ function loader() {
     const body = document.getElementsByTagName('body')[0];
     body.style.padding = '0rem';
     body.style.margin = '0';
+    body.style.minHeight = '100vh';
+    body.style.display = 'flex';
 
     const page = document.getElementById('content');
     
@@ -15,12 +17,12 @@ function loader() {
     page.style.flexDirection = 'column';
     page.style.justifyContent = 'space-evenly';
     page.style.alignItems = 'center';
-    page.style.height = "100vh";
+    page.style.minHeight = "auto";
     page.style.padding = "0rem";
     page.style.margin = "0";
     page.style.fontFamily = 'ubuntu';
     page.style.color = 'white';
-
+    page.style.flex = 'auto';
 
     header.style.backgroundColor = "#81a3bf";
     header.style.height = '5%';
@@ -68,7 +70,7 @@ function loader() {
     mainBox.style.flexDirection = "column";
     mainBox.style.justifyContent = "space-between";
     mainBox.style.alignItems = "center";
-    mainBox.style.height = "60vh";
+    mainBox.style.height = "100px min";
     mainBox.style.padding = "3rem";
     mainBox.style.margin = "4rem";
     mainBox.style.marginLeft = "15rem";

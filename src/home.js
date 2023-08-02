@@ -22,6 +22,8 @@ function loadHome() {
     info.style.padding = "1rem";
     info.style.borderRadius = ".4rem";
     info.style.backgroundColor = "#8185bf";
+    info.style.marginTop = '1.5rem';
+    info.style.marginBottom = '1.5rem';
 
     const hours = document.createElement('div');
     hours.innerHTML = 'Open Daily 5pm - 4am';
@@ -29,6 +31,8 @@ function loadHome() {
     hours.style.padding = "1rem";
     hours.style.borderRadius = ".4rem";
     hours.style.backgroundColor = "#8185bf";
+    hours.style.marginTop = '1.5rem';
+    hours.style.marginBottom = '1.5rem';
 
     const location = document.createElement('div');
     location.innerHTML = '1234 Rafadafabobafa Lane';
@@ -36,6 +40,7 @@ function loadHome() {
     location.style.padding = "1rem";
     location.style.borderRadius = ".4rem";
     location.style.backgroundColor = "#8185bf";
+    location.style.marginTop = '1.5rem';
 
 
     mainBox.appendChild(homeTitle);
