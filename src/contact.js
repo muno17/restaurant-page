@@ -12,8 +12,6 @@ function loadContact() {
     contactTitle.style.paddingLeft = "3rem";
     contactTitle.style.borderRadius = ".4rem";
     contactTitle.style.backgroundColor = "#8185bf";
-    contactTitle.style.marginTop = '1.5rem';
-    contactTitle.style.marginBottom = '1.5rem';
 
     const contactInfo = document.createElement('div');
     contactInfo.innerHTML = `Call us at 420-666-6969 with any questions/concerns
